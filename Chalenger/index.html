@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Decodificador</title>
+</head>
+<body>
+  <header>
+    <img src="assets/Logo.png" alt="logo-a-de-alura">
+  </header>
+  <main class="main">
+    <section>
+      <textarea class="input-texto" cols="40" rows="6" placeholder="Digite seu texto:"></textarea>
+      <div>
+        <h6 class="informacao"> <img src="assets/Vector.png" alt="icone-vector"> Apenas letras maiúsculas e minúsculas</h6>
+      </div>
+      <div class="botoes">
+        <button class="encriptar" onclick="btnEncriptar()">
+          Criptografar
+        </button>
+        <button class="desencriptar" onclick="btnDesencriptar()">
+          Descriptografar
+        </button>
+      </div>
+    </section>
+
+    <section>
+      <textarea class="mensagem" cols="18" rows="8"></textarea>
+
+      <button class="copia" onclick="btnCopiar()">
+        Copiar
+      </button>
+    </section>
+
+    <footer class="social-medias">
+      <ul type="none">
+        <li>
+          &copy; Victor Lima ALURA || ORACLE
+        </li>
+       </main>
+  <script src="script.js"></script>
+</body>
+</html> 
